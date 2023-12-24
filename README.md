@@ -5,12 +5,17 @@ It uses [catchnhole](https://github.com/mmalecki/catchnhole) developed by Maciej
 
 I printed multiple of these clips on  my QIDI X Max-3, using UltraABS-GF25.
 
-## Adding the `catchnhole` sub module
+## Cloning and adding the `catchnhole` sub module
+Start by cloning this repository:
+```bash
+git clone git@github.com:jwluiten/broom-clip.git
+cd broom-clip
+```
 
-Without adding `catchnhole` the clip will render without the hole for the screw. To correctly render the clip, the `catchnhole` submodule must be added as follows:
+Without adding `catchnhole` the clip will render without the hole for the screw. To correctly render the clip, the `catchnhole` submodule must be updated as follows:
 
 ```bash
-git submodule add <https://github.com/mmalecki/catchnhole> catchnhole
+git submodule update --init
 ```
 
 ## Customizable features
