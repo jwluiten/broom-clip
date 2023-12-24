@@ -1,0 +1,30 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "broom_clip_21_50": {
+            "$fn": "210",
+            "angle": "120",
+            "block_thickness": "3.5",
+            "bolt_kind": "countersunk",
+            "bolt_name": "M5",
+            "clip_thickness": "2.5",
+            "countersink": "1",
+            "height": "20",
+            "inner_diameter": "21.499999999999972",
+            "pin_diameter": "2.7000000000000002"
+        },
+        "broom_clip_23_50": {
+            "$fn": "210",
+            "angle": "120",
+            "block_thickness": "3.5",
+            "bolt_kind": "countersunk",
+            "bolt_name": "M5",
+            "clip_thickness": "2.5",
+            "countersink": "1",
+            "head_clearance": "0.20000000000000001",
+            "height": "20",
+            "inner_diameter": "23.499999999999972",
+            "pin_diameter": "2.7000000000000002"
+        }
+    }
+}
