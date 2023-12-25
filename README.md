@@ -1,6 +1,6 @@
-# Customizable [openSCAD](https://openscad.org) broom clip
-
-This customizable broom clip is my first try at an openSCAD design.
+# Customizable openSCAD broom clip
+![brrom clip](./images/broom-clip.png)
+This customizable broom clip is my first try at an [openSCAD](https://openscad.org) design.
 It uses [catchnhole](https://github.com/mmalecki/catchnhole) developed by Maciej Małecki.
 
 I printed multiple of these clips on  my QIDI X Max-3, using UltraABS-GF25.
@@ -21,7 +21,7 @@ git submodule update --init
 ## Customizable features
 
 ### inner diameter of the clip
-As inner diameter of the clip I used the clip thickness as measured using a caliper. This results in clips that are strong enough for my purposes.
+As inner diameter of the clip I used the clip thickness as measured using a caliper. This results in clips that are thight enough for my purposes.
 
 ### clip thickness
 For clip thickness I used 2.5. This, combined with a well measured inner diameter, creates clips with a tight grip.
@@ -36,7 +36,7 @@ A pin is added to both open ends of the clip. This parameter sets the diameter o
 For light objects I used 15, for heavier objects 20. The greater the height, the better the grip of the clip on the broom.
 
 ### block thickness
-At the end of the clip, a block is appended. This parameter sets the thickness of that block. The total thickness at the wall-side of the clip is `clip thickness + block thickness`.
+At the wall side of the clip, a block is appended. This parameter sets the thickness of that block. The total thickness at the wall side of the clip is `clip thickness + block thickness`.
 
 ### bolt name
 I used M5. That corresponds to 4.5mm screws that need 6mm plugs. The smallest type in [this bundle](https://www.amazon.nl/dp/B08BS2SXWD?psc=1&ref=ppx_yo2ov_dt_b_product_details).
